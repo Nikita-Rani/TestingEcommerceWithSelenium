@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="1" ignored="1" total="6" passed="3" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-29T11:10:08 IST" name="Suite" finished-at="2024-06-29T11:11:23 IST" duration-ms="74983">
+    <groups>
+      <group name="purchase">
+        <method signature="SubmitOrderTest.submitOrder(java.util.HashMap)[pri:0, instance:ecomautomation.SubmitOrderTest@7e242b4d]" name="submitOrder" class="ecomautomation.SubmitOrderTest"/>
+      </group> <!-- purchase -->
+      <group name="producterrorValidations">
+        <method signature="ErrorValidation.productErrorValidation()[pri:0, instance:ecomautomation.ErrorValidation@7c22d4f]" name="productErrorValidation" class="ecomautomation.ErrorValidation"/>
+      </group> <!-- producterrorValidations -->
+      <group name="loginerrorValidations">
+        <method signature="ErrorValidation.loginErrorValidation()[pri:0, instance:ecomautomation.ErrorValidation@7c22d4f]" name="loginErrorValidation" class="ecomautomation.ErrorValidation"/>
+      </group> <!-- loginerrorValidations -->
+    </groups>
+    <test started-at="2024-06-29T11:10:08 IST" name="Error Validation Test" finished-at="2024-06-29T11:10:49 IST" duration-ms="40948">
+      <class name="ecomautomation.ErrorValidation">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ecomautomation.ErrorValidation@7c22d4f]" started-at="2024-06-29T11:10:08 IST" name="launchApplication" finished-at="2024-06-29T11:10:18 IST" duration-ms="10582" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="loginErrorValidation()[pri:0, instance:ecomautomation.ErrorValidation@7c22d4f]" started-at="2024-06-29T11:10:18 IST" name="loginErrorValidation" finished-at="2024-06-29T11:10:19 IST" duration-ms="463" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginErrorValidation -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:ecomautomation.ErrorValidation@7c22d4f]" started-at="2024-06-29T11:10:19 IST" name="closeBrowser" finished-at="2024-06-29T11:10:19 IST" duration-ms="86" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ecomautomation.ErrorValidation@7c22d4f]" started-at="2024-06-29T11:10:19 IST" name="launchApplication" finished-at="2024-06-29T11:10:20 IST" duration-ms="1484" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="productErrorValidation()[pri:0, instance:ecomautomation.ErrorValidation@7c22d4f]" started-at="2024-06-29T11:10:20 IST" name="productErrorValidation" finished-at="2024-06-29T11:10:49 IST" duration-ms="28186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productErrorValidation -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:ecomautomation.ErrorValidation@7c22d4f]" started-at="2024-06-29T11:10:49 IST" name="closeBrowser" finished-at="2024-06-29T11:10:49 IST" duration-ms="103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- ecomautomation.ErrorValidation -->
+    </test> <!-- Error Validation Test -->
+    <test started-at="2024-06-29T11:10:08 IST" name="Submit Order Test" finished-at="2024-06-29T11:11:23 IST" duration-ms="74983">
+      <class name="ecomautomation.SubmitOrderTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ecomautomation.SubmitOrderTest@7e242b4d]" started-at="2024-06-29T11:10:08 IST" name="launchApplication" finished-at="2024-06-29T11:10:19 IST" duration-ms="10601" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:ecomautomation.SubmitOrderTest@7e242b4d]" started-at="2024-06-29T11:10:19 IST" name="submitOrder" data-provider="getDataFromJson" finished-at="2024-06-29T11:10:37 IST" duration-ms="18753" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Nikita123@gmail, product=ZARA COAT 3, email=nikita123@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:ecomautomation.SubmitOrderTest@7e242b4d]" started-at="2024-06-29T11:10:37 IST" name="closeBrowser" finished-at="2024-06-29T11:10:37 IST" duration-ms="73" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ecomautomation.SubmitOrderTest@7e242b4d]" started-at="2024-06-29T11:10:37 IST" name="launchApplication" finished-at="2024-06-29T11:10:42 IST" duration-ms="4111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method retried="true" signature="submitOrder(java.util.HashMap)[pri:0, instance:ecomautomation.SubmitOrderTest@7e242b4d]" started-at="2024-06-29T11:10:42 IST" name="submitOrder" data-provider="getDataFromJson" finished-at="2024-06-29T11:10:59 IST" duration-ms="17931" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Nikita123@gmail, product=ADIDAS ORIGINAL, email=niki123@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "ecomautomation.pageobjects.PlaceOrderPage.placeOrder(String)" because "placeOrder" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "ecomautomation.pageobjects.PlaceOrderPage.placeOrder(String)" because "placeOrder" is null
+at ecomautomation.SubmitOrderTest.submitOrder(SubmitOrderTest.java:47)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1570)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:ecomautomation.SubmitOrderTest@7e242b4d]" started-at="2024-06-29T11:10:59 IST" name="closeBrowser" finished-at="2024-06-29T11:11:00 IST" duration-ms="94" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ecomautomation.SubmitOrderTest@7e242b4d]" started-at="2024-06-29T11:11:00 IST" name="launchApplication" finished-at="2024-06-29T11:11:05 IST" duration-ms="5158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:ecomautomation.SubmitOrderTest@7e242b4d]" started-at="2024-06-29T11:11:05 IST" name="submitOrder" data-provider="getDataFromJson" finished-at="2024-06-29T11:11:23 IST" duration-ms="17799" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Nikita123@gmail, product=ADIDAS ORIGINAL, email=niki123@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "ecomautomation.pageobjects.PlaceOrderPage.placeOrder(String)" because "placeOrder" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "ecomautomation.pageobjects.PlaceOrderPage.placeOrder(String)" because "placeOrder" is null
+at ecomautomation.SubmitOrderTest.submitOrder(SubmitOrderTest.java:47)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1570)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:ecomautomation.SubmitOrderTest@7e242b4d]" started-at="2024-06-29T11:11:23 IST" name="closeBrowser" finished-at="2024-06-29T11:11:23 IST" duration-ms="125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- ecomautomation.SubmitOrderTest -->
+    </test> <!-- Submit Order Test -->
+  </suite> <!-- Suite -->
+</testng-results>

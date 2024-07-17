@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Suite">
+	<listeners>
+		<listener class-name="ecomautomation.TestComponents.Listeners"/>
+	</listeners>
+  <test thread-count="5" name="Submit Order Test">
+    <classes>
+      <class name="ecomautomation.SubmitOrderTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test thread-count="5" name="Error Validation Test">
+    <classes>
+      <class name="ecomautomation.ErrorValidation"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
